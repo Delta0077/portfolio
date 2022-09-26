@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/style.css";
+// import "../styles/style.css";
+import "../styles/Header.css";
 import devJane from "../assets/devjane.png";
 
 export default function Header() {
