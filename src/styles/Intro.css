@@ -1,0 +1,15 @@
+.section__title {
+}
+
+@import "style.css";
+
+.section__subtitle {
+  margin: 0;
+  font-size: var(--fs-h3);
+}
+
+
+.section__subtitle--intro,
+.section__subtitle {
+
+}
