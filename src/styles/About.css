@@ -3,4 +3,5 @@
 .section__subtitle--about {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
+  margin-bottom: 1em;
 }
