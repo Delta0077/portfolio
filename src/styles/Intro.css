@@ -21,4 +21,9 @@
 .section__subtitle--intro {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+}
+
+.intro {
+  position: relative;
 }
