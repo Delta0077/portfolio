@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Intro.css";
-import devJane01 from "../assets/dev-jane-01.jpg";
 
 export default function Intro() {
   return (
@@ -11,7 +10,11 @@ export default function Intro() {
       <p className="section__subtitle section__subtitle--intro">
         front-end dev
       </p>
-      <img src={devJane01} alt="a picture of Jane Smith smiling"></img>
+      <img
+        className="aditya__intro-img"
+        src="/public/Aditya__profile.jpg"
+        alt="a picture of Aditya smiling"
+      ></img>
     </section>
   );
 }
