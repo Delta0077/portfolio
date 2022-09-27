@@ -10,11 +10,7 @@ export default function Intro() {
       <p className="section__subtitle section__subtitle--intro">
         front-end dev
       </p>
-      <img
-        className="aditya__intro-img"
-        src="/public/Aditya__profile.jpg"
-        alt="a picture of Aditya smiling"
-      ></img>
+      <img src="/public/gon.png" alt="a picture of Aditya smiling"></img>
     </section>
   );
 }
