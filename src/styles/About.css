@@ -1,0 +1,6 @@
+@import "style.css";
+
+.section__subtitle--about {
+  background: var(--clr-accent);
+  font-family: var(--ff-secondary);
+}
