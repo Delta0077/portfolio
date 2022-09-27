@@ -9,6 +9,10 @@ img {
   max-width: 100%;
 }
 
+.aditya__intro-img {
+  max-width: 60%;
+}
+
 /* Custom Properties */
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
