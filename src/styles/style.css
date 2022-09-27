@@ -69,3 +69,17 @@ h2 {
 h3 {
   font-size: var(--fs-h3);
 }
+
+section {
+  padding: 5em 2em;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    grid-template-areas:
+      "a a a"
+      "b c c"
+      "b c c"
+  }
+}
