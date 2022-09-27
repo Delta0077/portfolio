@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Intro.css";
+import gon from "../assets/gon.png";
 
 export default function Intro() {
   return (
@@ -10,7 +11,7 @@ export default function Intro() {
       <p className="section__subtitle section__subtitle--intro">
         front-end dev
       </p>
-      <img src="/public/gon.png" alt="a picture of Aditya smiling"></img>
+      <img src={gon} alt="a picture of Aditya smiling"></img>
     </section>
   );
 }
