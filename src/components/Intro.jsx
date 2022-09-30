@@ -11,7 +11,11 @@ export default function Intro() {
       <p className="section__subtitle section__subtitle--intro">
         front-end dev
       </p>
-      <img src={gon} alt="a picture of Aditya smiling"></img>
+      <img
+        src={gon}
+        alt="a picture of Aditya smiling"
+        className="intro__img"
+      ></img>
     </section>
   );
 }
