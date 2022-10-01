@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Services.css";
 
 export default function Services() {
   return (
@@ -36,7 +37,9 @@ export default function Services() {
       </div>
       {/* Close services */}
 
-      <a href="#work" className="btn">My Work</a>
+      <a href="#work" className="btn">
+        My Work
+      </a>
     </section>
   );
 }

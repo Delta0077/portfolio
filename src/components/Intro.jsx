@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Intro.css";
-import gon from "../assets/gon.png";
+import aditya from "../assets/Aditya__profile.jpg";
 
 export default function Intro() {
   return (
@@ -12,7 +12,7 @@ export default function Intro() {
         front-end dev
       </p>
       <img
-        src={gon}
+        src={aditya}
         alt="a picture of Aditya smiling"
         className="intro__img"
       ></img>
