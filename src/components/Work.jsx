@@ -1,11 +1,12 @@
 import React from "react";
+import "../styles/Work.css";
 
 export default function Work() {
   return (
     <>
       <section className="my-work" id="work">
-        <h2 className="section__title">My work</h2>
-        <p className="section__subtitle"></p>
+        <h2 className="section__title section__title--work">My work</h2>
+        <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
         <div className="portfolio">
           {/*Portfolio item 01*/}
