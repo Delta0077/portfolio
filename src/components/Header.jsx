@@ -1,13 +1,11 @@
 import React from "react";
-// import "../styles/style.css";
 import "../styles/Header.css";
-import devJane from "../assets/devjane.png";
 
 export default function Header() {
   return (
     <header>
       <div className="logo">
-        <img src={devJane} alt=""></img>
+        <img src="/public/devadi.png" alt=""></img>
       </div>
       <button className="nav-toggle" aria-label="toggle navigation">
         <span className="hamburger"></span>
