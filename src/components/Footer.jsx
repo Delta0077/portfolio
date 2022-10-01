@@ -1,31 +1,32 @@
 import React from "react";
+import "../styles/Footer.css";
 
 export default function Footer() {
   return (
     <>
-      <footer>
+      <footer className="footer">
         <a href="mailto: adas0262@gmail.com" className="footer__link">
-          Mail Me
+          Send me Hi
         </a>
         <ul className="social-list">
           <li className="social-list__item">
             <a className="social-list__link" href="https://codepen.io">
-              a
+              <i className="fa-brands fa-codepen"></i>
             </a>
           </li>
           <li className="social-list__item">
             <a className="social-list__link" href="http://dribbble.com">
-              b
+              <i className="fa-brands fa-dribbble"></i>
             </a>
           </li>
           <li className="social-list__item">
             <a className="social-list__link" href="https://twitter.com">
-              c
+              <i className="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li className="social-list__item">
             <a className="social-list__link" href="https://github.com">
-              d
+              <i className="fa-brands fa-github"></i>
             </a>
           </li>
         </ul>
