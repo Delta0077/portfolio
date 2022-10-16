@@ -9,9 +9,9 @@ export default function Navbar() {
   }
   return (
     <header>
-    <div className="logo">
-    <img src="/devadi.svg" alt=""></img>
-  </div>
+      <div className="logo">
+        <img src="/devadi.svg" alt=""></img>
+      </div>
       <nav className="nav">
         <div className={navOpen ? "navbar showMenu" : "nav__item"}>
           <ul className="nav__list">
@@ -33,6 +33,11 @@ export default function Navbar() {
             <li className="nav__item  showMenu">
               <a href="#work" className="nav__link">
                 My Work
+              </a>
+            </li>
+            <li className="nav__item  showMenu">
+              <a href="/Das_aditya.pdf" className="nav__link" download>
+                Resume
               </a>
             </li>
           </ul>
