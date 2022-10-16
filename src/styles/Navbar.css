@@ -4,20 +4,19 @@ header {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1em;
 }
 
 .logo {
   position: relative;
+  min-width: 60px;
   max-width: 100px;
   height: fit-content;
-  /* border: 2px solid red; */
 }
 
 .nav {
   width: 70%;
-  /* border: 2px solid red; */
 }
 .nav__list {
   list-style: none;
@@ -48,12 +47,11 @@ header {
 }
 
 @media (max-width: 850px) {
-  .logo {
-    width: 80px;
-  }
-
   .nav {
-    width: 80%;
+    width: 100%;
+  }
+  .logo {
+    width: 15%;
   }
 
   .nav__item {
@@ -65,9 +63,11 @@ header {
   }
 
   .nav__list {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 1.25em;
     row-gap: 0.25em;
     width: auto;
     padding: 1em;
