@@ -10,23 +10,30 @@ export default function Footer() {
         </a>
         <ul className="social-list">
           <li className="social-list__item">
-            <a className="social-list__link" href="https://codepen.io">
-              <i className="fa-brands fa-codepen"></i>
+            <a
+              className="social-list__link"
+              href="https://www.linkedin.com/in/aditya-das-250365200/"
+              target="_blank"
+            >
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li className="social-list__item">
-            <a className="social-list__link" href="http://dribbble.com">
-              <i className="fa-brands fa-dribbble"></i>
-            </a>
-          </li>
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://twitter.com">
-              <i className="fa-brands fa-twitter"></i>
-            </a>
-          </li>
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://github.com">
+            <a
+              className="social-list__link"
+              href="https://github.com/Delta0077"
+              target="_blank"
+            >
               <i className="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li className="social-list__item">
+            <a
+              className="social-list__link"
+              href="https://dribbble.com/delta0077"
+              target="_blank"
+            >
+              <i className="fa-brands fa-dribbble"></i>
             </a>
           </li>
         </ul>
