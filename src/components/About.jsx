@@ -12,16 +12,11 @@ export default function About() {
 
         <div className="about-me__body">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Recent Postgraduate looking for internship/job experience. Highly
+            motivated to learn new technologies required to get a job done.
+            Experienced in UI/UX designing using Adobe XD & Figma. Proficient in
+            making responsive and interactive web pages using html5, CSS &
+            React.
           </p>
         </div>
         <img
